@@ -1,0 +1,4 @@
+approx.Z                Interpolating in smoothing spline Z-matrix
+                        columns
+smSplineEx1             Simulated data about a smooth curve
+smspline                Smoothing splines in NLME
