@@ -57,7 +57,7 @@ rows as the
 \note{The time points for the smoothing spline basis are, by default,
   the unique values of the time covariate. This is the easiest approach,
   and model predictions at the fitted data points, can be obtained using
-  \code{\link{predict.lme}}. By interpolation, using \code{\link{approx.Z}}}, 
+  \code{\link{predict.lme}}. By interpolation, using \code{\link{approx.Z}}, 
   the \eqn{Z}-matrix can be obtained for any set of time points and can 
   be used for fitting and/or prediction. (See examples).
   }
