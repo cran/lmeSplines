@@ -97,6 +97,3 @@ apply(Z,2,function(u,oldt,newt){
    oldt=oldtimes, newt=newtimes)
 }
 
-.First.lib <- function(lib,pkg){
-require(nlme)
-}

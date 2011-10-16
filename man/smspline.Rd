@@ -78,8 +78,8 @@ rows as the
 
 }
 
-\author{Rod Ball \email{rod.ball@forestresearch.co.nz} 
-\url{www.forestresearch.co.nz}}
+\author{Rod Ball \email{rod.ball@scionresearch.com} 
+\url{www.scionresearch.com}}
 \seealso{\code{\link{approx.Z}} \code{\link{nlme}}}
 \examples{
 # smoothing spline curve fit

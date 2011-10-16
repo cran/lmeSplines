@@ -28,8 +28,8 @@ approx.Z(Z, oldtimes, newtimes)
   prediction from an existing model, to obtain predictions at points
   not represented in the data using \code{predict.lme()}.
 }
-\author{Rod Ball \email{rod.ball@forestresearch.co.nz} 
-  \url{www.forestresearch.co.nz}}
+\author{Rod Ball \email{rod.ball@scionresearch.com} 
+  \url{www.scionresearch.com}}
 \note{Linear interpolation works well here because the spline basis
   functions are approximately piecewise linear.}
 \seealso{\code{\link{smspline}} \code{\link{nlme}}  }
