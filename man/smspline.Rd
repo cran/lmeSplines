@@ -4,11 +4,8 @@
 \title{Smoothing splines in NLME}
 \description{Functions to generate matrices for a smoothing spline
   covariance structure, to enable fitting smoothing spline terms in LME/NLME. }
-\synopsis{data$Z <- smspline(formula1, data); fit <-lme(formula2, data, random= \dots)}
 \usage{
   smspline(formula, data)
-  smspline(formula)
-  smspline(time)
   smspline.v(time)
 }
 \arguments{
@@ -60,7 +57,8 @@ rows as the
   \code{\link{predict.lme}}. By interpolation, using \code{\link{approx.Z}}, 
   the \eqn{Z}-matrix can be obtained for any set of time points and can 
   be used for fitting and/or prediction. (See examples).
-  }
+Synopsis:data$Z <- smspline(formula1, data); fit <-lme(formula2, data, random= \dots)
+}
 \references{
   The correspondence between penalized likelihood formulations of
   smoothing splines and mixed models was pointed out by Speed (1991).

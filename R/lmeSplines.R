@@ -60,11 +60,11 @@ function(time)
 	h <- diff(t1)
 	h1 <- h[1:(p - 2)]
 	h2 <- h[2:(p - 1)]
-	Q <- matrix(0, nr = p, nc = p - 2)
+	Q <- matrix(0, nrow = p, ncol = p - 2)
 	Q[cbind(1:(p - 2), 1:(p - 2))] <- 1/h1
 	Q[cbind(1 + 1:(p - 2), 1:(p - 2))] <- -1/h1 - 1/h2
 	Q[cbind(2 + 1:(p - 2), 1:(p - 2))] <- 1/h2
-	Gs <- matrix(0, nr = p - 2, nc = p - 2)
+	Gs <- matrix(0, nrow = p - 2, ncol = p - 2)
 	Gs[cbind(1:(p - 2), 1:(p - 2))] <- 1/3 * (h1 + h2)
 	Gs[cbind(1 + 1:(p - 3), 1:(p - 3))] <- 1/6 * h2[1:(p - 3)]
 	Gs[cbind(1:(p - 3), 1 + 1:(p - 3))] <- 1/6 * h2[1:(p - 3)]
