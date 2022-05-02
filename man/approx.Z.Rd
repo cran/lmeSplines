@@ -29,7 +29,7 @@ approx.Z(Z, oldtimes, newtimes)
   not represented in the data using \code{predict.lme()}.
 }
 \author{Rod Ball \email{rod.ball@scionresearch.com} 
-  \url{www.scionresearch.com}}
+  \url{https://www.scionresearch.com/}}
 \note{Linear interpolation works well here because the spline basis
   functions are approximately piecewise linear.}
 \seealso{\code{\link{smspline}} \code{\link{nlme}}  }

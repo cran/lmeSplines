@@ -77,7 +77,7 @@ Synopsis:data$Z <- smspline(formula1, data); fit <-lme(formula2, data, random= \
 }
 
 \author{Rod Ball \email{rod.ball@scionresearch.com} 
-\url{www.scionresearch.com}}
+\url{https://www.scionresearch.com/}}
 \seealso{\code{\link{approx.Z}} \code{\link{nlme}}}
 \examples{
 # smoothing spline curve fit

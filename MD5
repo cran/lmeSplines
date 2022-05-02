@@ -1,8 +1,8 @@
-fbad7ab982edaaf07fb3e94bb84b46d8 *DESCRIPTION
-0c084f300b4557be0a587d9831059198 *INDEX
-37513d9bb2d8640ac8319d265b02c0b5 *NAMESPACE
+54e6229bd35a482969b2c5f6c9e62b9d *DESCRIPTION
+ef205ec7aafcb49667543a2eaba0209c *NAMESPACE
 13eb237d52a27c0e950bf919b58f6a14 *R/lmeSplines.R
+4730746f7ae6de34388d66d8f1cc6654 *README.md
 b3b9a3905ecec5c1084d4645258edf70 *data/smSplineEx1.rda
-d205a134fc379277e4c0dd4c3506fb8f *man/approx.Z.Rd
+95cf1f6cbd6cdee627c5f50bda9ef5dd *man/approx.Z.Rd
 005572009a9a71a67a5f11204a5ebed1 *man/smSplineEx1.Rd
-3bd158d567aa718d768b275a7cf4269d *man/smspline.Rd
+fb5acd905c4f1c0bc6f7e4ab2e6de84d *man/smspline.Rd
