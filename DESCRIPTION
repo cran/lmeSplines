@@ -1,14 +1,23 @@
 Package: lmeSplines
-Version: 1.1-12
+Version: 1.1.15
 Title: Add Smoothing Spline Modelling Capability to `nlme`
-Author: Rod Ball <rod.ball@scionresearch.com>
-Maintainer: Andrzej Galecki <agalecki@umich.edu>
 Description: Adds smoothing spline modelling capability to nlme. Fits
         smoothing spline terms in Gaussian linear and nonlinear
         mixed-effects models.
-Depends: nlme(>= 3.1-29)
+Authors@R: c(
+   person("Rod", "Ball", email = "rod.ball@scionresearch.com", role = c("aut")),
+   person("Andrzej", "Galecki", email = "agalecki@umich.edu", role = c("cre"), comment = c(ORCID = "0000-0003-3058-1312"))
+   )
+Depends: R (>= 3.5.0), nlme(>= 3.1-29)
+LazyData: true
+Encoding: UTF-8
+RoxygenNote: 7.3.2
 License: GPL (>= 2)
-Repository: CRAN
+URL: https://github.com/agalecki/lmeSplines
 NeedsCompilation: no
-Packaged: 2022-05-02 13:07:57 UTC; agalecki
-Date/Publication: 2022-05-02 13:30:02 UTC
+Packaged: 2025-08-08 13:33:28 UTC; agalecki
+Author: Rod Ball [aut],
+  Andrzej Galecki [cre] (ORCID: <https://orcid.org/0000-0003-3058-1312>)
+Maintainer: Andrzej Galecki <agalecki@umich.edu>
+Repository: CRAN
+Date/Publication: 2025-08-25 13:20:08 UTC
